@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    }
+    
+    .featureBox {
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: none;
+    transition: transform 0.3s ease;
+    }
+    
+    .featureBox:hover {
+    transform: scale(1.1);
+    }
+    
+    .icon {
+    font-size: 40px;
+    color: #6c63ff;
+    margin-bottom: 10px;
+    }
+    
+    .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    .description {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 20px;
+    }
+    
+    .link {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+
+
+
+/* .home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    transition: 0.3s;
+
+}
+.home h1{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.home p{
+    margin-bottom: 15px;
+
+}
+.home .sec{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.home img{
+    margin-right: 20px;
+}
+.home button{
+    font-size: 20px;
+    border-radius: none;
+    color: blueviolet;
+   
+}
+.home .aboutimages{
+    display: flex;
+    flex-direction: column;
+}
+.constomise{
+    margin-right: 10px;
+    margin-left: 20px;
+    transition: transform 0.3s ease; /* Smooth transition */
+
+
+/* .constomise:hover {
+    transform: scale(1.1); /* Zoom out effect */
+/* }
+.secure {
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    transition: transform 0.3s ease; /* Smooth transition */
+    
+    
+    /* .secure:hover {
+    transform: scale(1.1); /* Zoom out effect */
+    
+/* .btn{
+    margin-right: 30px; */ 
