@@ -1,3 +1,4 @@
+/* Default styles for larger screens */
 .slider-container {
     margin-top: 15%;
     margin-left: 30px;
@@ -40,10 +41,11 @@
     font-weight: bold;
     margin-bottom: 20px;
     }
-    .star{
-        color: rgb(228, 228, 12);
-        font-size: 20px;
-        margin-left: 90px;
+    
+    .star {
+    color: rgb(228, 228, 12);
+    font-size: 20px;
+    margin-left: 90px;
     }
     
     .card-icons {
@@ -75,9 +77,74 @@
     align-items: center;
     justify-content: center;
     }
-    .star{
-        color: rgb(228, 228, 12);
-        font-size: 20px;
-        margin-left: 90px;
-        padding-right: 5px;
+    
+    /* Responsive styles for tablets and smaller screens */
+    @media (max-width: 768px) {
+    .slider-container {
+    margin-top: 10%;
+    margin-left: 15px;
+    margin-right: 15px;
     }
+    
+    .POP {
+    font-size: 40px;
+    }
+    
+    .card {
+    margin-left: 10px;
+    }
+    
+    .card-title {
+    font-size: 20px;
+    }
+    
+    .card-text {
+    font-size: 16px;
+    }
+    
+    .btn-primary {
+    padding-right: 40%;
+    font-size: 14px;
+    }
+    
+    .star {
+    margin-left: 50px;
+    font-size: 18px;
+    }
+    }
+    
+    /* Responsive styles for mobile phones */
+    @media (max-width: 480px) {
+    .slider-container {
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    
+    .POP {
+    font-size: 30px;
+    }
+    
+    .card {
+    margin-left: 5px;
+    }
+    
+    .card-title {
+    font-size: 18px;
+    }
+    
+    .card-text {
+    font-size: 14px;
+    }
+    
+    .btn-primary {
+    padding-right: 30%;
+    font-size: 12px;
+    }
+    
+    .star {
+    margin-left: 30px;
+    font-size: 16px;
+    }
+    }
+    

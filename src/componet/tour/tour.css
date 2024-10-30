@@ -69,22 +69,6 @@ button{
     -webkit-transition: background-color 0.3s ease-in-out;
     width: 100%; 
 }
-/* .btn-primary {
-    padding-right: 50%;
-    background: rgb(61, 17, 218);
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    align-items: center;
-    justify-content: center;
-    } */
-
 .tours-grid{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 15px;

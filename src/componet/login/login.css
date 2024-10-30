@@ -1,3 +1,4 @@
+/* Default styles for larger screens */
 .login-container {
     display: flex;
     flex-direction: column;
@@ -29,4 +30,46 @@
     
     .login-container button:hover {
     background-color: #0056b3;
+    }
+    
+    /* Responsive styles for tablets and smaller screens */
+    @media (max-width: 768px) {
+    .login-container {
+    padding: 20px;
+    }
+    
+    .login-container h2 {
+    font-size: 1.5em;
+    }
+    
+    .login-container input {
+    width: 100%;
+    padding: 8px;
+    }
+    
+    .login-container button {
+    width: 100%;
+    padding: 8px;
+    }
+    }
+    
+    /* Responsive styles for mobile phones */
+    @media (max-width: 480px) {
+    .login-container {
+    padding: 10px;
+    }
+    
+    .login-container h2 {
+    font-size: 1.2em;
+    }
+    
+    .login-container input {
+    width: 100%;
+    padding: 6px;
+    }
+    
+    .login-container button {
+    width: 100%;
+    padding: 6px;
+    }
     }
